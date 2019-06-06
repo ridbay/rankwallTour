@@ -204,7 +204,7 @@ h6,
 .h1 {
     margin: 0;
     color: #353535;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -215,7 +215,7 @@ h1,
 }
 
 .h1 b {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 b {
@@ -405,7 +405,7 @@ h4 .color {
 .navbar li a {
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(146, 78, 156);
     border-radius: 3px;
     -webkit-transition: .4s;
@@ -2116,7 +2116,7 @@ textarea {
 
 .header-2 a {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     margin-bottom: 15px;
     font-weight: 100;
