@@ -187,11 +187,11 @@ ul,
 li,
 a,
 blockquote {
-       font-family: 'arial', sans-serif;
+    font-family: 'arial', sans-serif;
     margin: 0;
     font-weight: 200;
     font-size: 15px;
-    color: #5a5a5a;
+    color: #353535;
     letter-spacing: 0px;
 }
 
@@ -203,7 +203,7 @@ h5,
 h6,
 .h1 {
     margin: 0;
-    color: #37474F;
+    color: #353535;
     font-family: 'Roboto', sans-serif;
 }
 
