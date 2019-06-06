@@ -221,6 +221,7 @@ textarea {
     linear-gradient(315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);
     margin: 10px;
     padding: 6px 0px;
+    
 }
 
 .slicknav_nav a:hover {
