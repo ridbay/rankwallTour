@@ -65,10 +65,10 @@
         font-size: 14px;
     }
     .about-area {
-        padding: 90px 0px 70px;
+        padding: 30px 0px 30px;
     }
     .feature-area {
-        padding: 90px 0px 40px;
+        padding: 10px 0px 40px;
     }
     .ft-content{
         margin-top: 0;
@@ -81,7 +81,7 @@
     .pricing-area,
     .clinet-area,
     .contact-area {
-        padding: 90px 0px;
+        padding: 20px 0px;
     }
     .screen-area img.screen-img {
         bottom: 137px;
@@ -196,7 +196,7 @@
         font-size: 25px;
     }
     .about-area {
-        padding: 60px 0px 60px;
+        padding: 30px 0px 30px;
     }
     .section-title p {
         font-size: 16px;
@@ -222,7 +222,7 @@
     .call-to-action,
     .clinet-area,
     .contact-area {
-        padding: 80px 0px;
+        padding: 20px 0px;
     }
     .screen-slider{
         margin-top: 0;
@@ -351,7 +351,7 @@
         font-size: 25px;
     }
     .about-area {
-        padding: 50px 0px 50px;
+        padding: 30px 0px 10px;
     }
     .section-title p {
         font-size: 16px;
@@ -377,7 +377,7 @@
     .call-to-action,
     .clinet-area,
     .contact-area {
-        padding: 70px 0px;
+        padding: 20px 0px;
     }
     .screen-slider{
         margin-top: 0;
