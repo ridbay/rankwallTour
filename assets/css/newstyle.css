@@ -86,7 +86,7 @@
 --------------------------------------------- */
 
 * {
-    outline: inherit;
+    /* outline: inherit; */
     -moz-transition: .4s;
     -webkit-transition: .4s;
     -o-transition: .4s;
@@ -147,12 +147,11 @@ header {
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-    background-color: transparent;
-    -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.30);
-    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.30);
-
+    /* width: 5px; */
+    /* height: 5px; */
+    /* background-color: transparent; */
+    /* -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.30); */
+    /* box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.30); */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1601,12 +1600,13 @@ h4 .color {
 
 --------------------------------------------- */
 
-footer {
+/* footer {
     position: relative;
     z-index: 2;
     padding: 20px 15px;
     height: 130px;
     background-color: #ffffff;
+    width: 100%;
 }
 
 footer .copyright {
@@ -1692,7 +1692,7 @@ footer .fa:hover {
 }
 footer .footer-social div a:hover {
     background-color: rgba(255, 255, 255, .1)
-}
+} */
 
 /* -------------------------------------------
 
