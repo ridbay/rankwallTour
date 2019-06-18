@@ -318,13 +318,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </section>
     <!-- screen slider area end -->
     <?php if(!empty($emailSent)): ?>
-        <div class="col-md-6 col-md-offset-3">
-            <div class="alert alert-success text-center"><?php echo $config->get('messages.success'); ?></div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="contact-form">
+                <div class="alert alert-success text-center"><?php echo $config->get('messages.success'); ?></div>
+            </div>
         </div>
+
     <?php else: ?>
         <?php if(!empty($hasError)): ?>
         <div class="col-md-5 col-md-offset-4">
             <div class="alert alert-danger text-center"><?php echo $config->get('messages.error'); ?></div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="contact-form">
+                <div class="alert alert-danger text-center"><?php echo $config->get('messages.error'); ?></div>
+            </div>
         </div>
         <?php endif; ?>
     <!-- contact area start -->
@@ -370,7 +378,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="form-group">
                 <div class="col-lg-offset-2 col-lg-10">
-                    <button type="submit" class="btn btn-default"><?php echo $config->get('fields.btn-send'); ?></button>
+                    <button type="submit" class="btn btn-default" id="send"><?php echo $config->get('fields.btn-send'); ?></button>
                 </div>
             </div>
         </form>
