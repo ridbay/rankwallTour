@@ -1,0 +1,11 @@
+{
+  "name": "tour_html_only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
