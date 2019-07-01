@@ -9,22 +9,20 @@
     <!-- Mobile Specific Meta  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <link rel="stylesheet" href="assets/css/magnificpopup.css">
     <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/newstyle.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Favicon -->
+
     <link rel="shortcut icon" type="image/png" href="assets/img/icon/favicon.ico">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -260,74 +258,121 @@
     
     <!-- contact area start -->
     <section class="contact-area ptb--100" id="contact"  style="padding-top: 10px; padding-bottom: 10px;">
-        <div class="container-fluid">
+        <div class="container">
             <div class="section-title">
                 <h2>Contact Us</h2>
                 <p>Get in Touch</p>
+                                    <div class="contact_info">
+                        <div class="s-info">
+                            <!--<i class="fa fa-map-marker"></i>-->
+                            <div class="meta-content">
+                                <span>1968 S. Coast Hwy #1924, Laguna Beach,CA 92651</span>
+                            </div>
+                        </div>
+                        <!-- <div class="s-info">
+                            <i class="fa fa-mobile"></i>
+                            <div class="meta-content">
+                                <span>+0123 456 789 78</span>
+                                <span>+0123 456 789 78</span>
+                            </div>
+                        </div> -->
+                        <div class="s-info">
+                            <!--<i class="fa fa-paper-plane"></i>-->
+                            <div class="meta-content">
+                                <span><a href="mailto:info@rankwall.com"><strong>info@rankwall.com</strong></a></span>
+                            </div>
+                        </div>
+                        <div class="c-social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/Rankwallsocial/" target = "_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/Rankwallsocial" target = "_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/rankwall/" target = "_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <!--<li><a href="https://plus.google.com/u/0/108398145294319252153" target = "_blank"><i class="fa fa-google-plus"></i></a></li>-->
+                            </ul>
+                        </div>
+                    </div>
             </div>
             <div class="row">
-                    <div class="col-3 bg-success">.col-3</div>
-                    <div class="col-6 bg-warning">
-                                      <div class="contact_info">
-                                        <div class="s-info">
-                                            <i class="fa fa-map-marker"></i>
-                                            <div class="meta-content">
-                                                <span>1968 S. Coast Hwy #1924, Laguna Beach CA 92651</span>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="s-info">
-                                            <i class="fa fa-mobile"></i>
-                                            <div class="meta-content">
-                                                <span>+0123 456 789 78</span>
-                                                <span>+0123 456 789 78</span>
-                                            </div>
-                                        </div> -->
-                                        <div class="s-info">
-                                            <i class="fa fa-paper-plane"></i>
-                                            <div class="meta-content">
-                                                <span>info@rankwall.com</span>
-                                            </div>
-                                        </div>
-                                        <div class="c-social">
-                                            <ul>
-                                                <li><a href="https://www.facebook.com/Rankwallsocial/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/Rankwallsocial" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/company/rankwall/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                                <li><a href="https://rankwall.com"><i class="fa fa-globe"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                    </div>
-                    <div class="col-3 bg-success">.col-3</div>
-                  </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+        <!--            <div class="contact-form">-->
+        <!--            <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">-->
+        <!--    <div class="form-group">-->
+        <!--        <label for="form-name" class="col-lg-2 control-label"><?php echo $config->get('fields.name'); ?></label>-->
+        <!--        <div class="col-lg-10">-->
+        <!--            <input type="text" class="form-control" id="form-name" name="form-name" placeholder="<?php echo $config->get('fields.name'); ?>" required>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="form-group">-->
+        <!--        <label for="form-email" class="col-lg-2 control-label"><?php echo $config->get('fields.email'); ?></label>-->
+        <!--        <div class="col-lg-10">-->
+        <!--            <input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="form-group">-->
+        <!--        <label for="form-phone" class="col-lg-2 control-label"><?php echo $config->get('fields.phone'); ?></label>-->
+        <!--        <div class="col-lg-10">-->
+        <!--            <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="<?php echo $config->get('fields.phone'); ?>">-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="form-group">-->
+        <!--        <label for="form-subject" class="col-lg-2 control-label"><?php echo $config->get('fields.subject'); ?></label>-->
+        <!--        <div class="col-lg-10">-->
+        <!--            <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="form-group">-->
+        <!--        <label for="form-message" class="col-lg-2 control-label"><?php echo $config->get('fields.message'); ?></label>-->
+        <!--        <div class="col-lg-10">-->
+        <!--            <textarea class="form-control" rows="3" id="form-message" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="form-group">-->
+        <!--        <div class="col-lg-offset-2 col-lg-10">-->
+        <!--            <button type="submit" class="btn btn-default" id="send"><?php echo $config->get('fields.btn-send'); ?></button>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</form>-->
+        <!--<?php endif; ?>-->
+        <!--            </div>-->
+                </div>
+               
+            </div>
         </div>
     </section>
-    <!-- contact area end -->
-    <!-- footer area start -->
+
+
     <footer>
         <div class="footer-area">
             <div class="container">
                 <p>
-                    <a href="https://rankwall.com" target="_blank" style="background: #9442a4; color: white; padding: 7px; border-radius: 6px; box-shadow: 0px 3px 13px black;">Go back to RankWall</a><p>
-   
+                    <a href="https://rankwall.com" target="_blank"><button type="button"
+                            class="btn btn-default btn-lg btn-block"><strong>Go back to RankWall</strong></button></a>
+
+                </p>
+                <p>
+                </p>
             </div>
         </div>
     </footer>
-    <!-- footer area end -->
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/counterup.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/js/theme.js"></script>
 
 
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-3.2.0.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/jquery-ui.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/jquery.slicknav.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/owl.carousel.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/magnific-popup.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/counterup.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/jquery.waypoints.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script src="assets/js/theme.js" type="1d300f2d332085ef9e5e2f7c-text/javascript"></script>
+    <script type="1d300f2d332085ef9e5e2f7c-text/javascript" src="public/js/contact-form.js"></script>
+    <script type="1d300f2d332085ef9e5e2f7c-text/javascript">
+        new ContactForm('#contact-form');
+    </script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="1d300f2d332085ef9e5e2f7c-|49" defer=""></script>
 </body>
 
 </html>
